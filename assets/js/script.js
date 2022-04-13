@@ -9,7 +9,10 @@ function salvar () {
         idade
     }
 
-    array.push(pessoa)
+    array.push(pessoas)
     console.log(array)
+const exibir = function (){
+    let print = document.querySelector('#label-exibir')
+}   print.innerHTML = "TESTE"
 
 }
